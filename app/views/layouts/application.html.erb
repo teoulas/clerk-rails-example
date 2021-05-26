@@ -60,5 +60,7 @@
     <div class="container">
       <%= yield %>
     </div>
+
+    <%= debug request.env.slice("clerk_session", "clerk_user", "clerk_error") %>
   </body>
 </html>

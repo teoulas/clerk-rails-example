@@ -21,14 +21,6 @@ module ClerkRailsExample
     #
     # config.time_zone = "Central Time (US & Canada)"
     # config.eager_load_paths << Rails.root.join("extras")
-
-    #require "clerk/rack_middleware"
-    #config.middleware.use(
-    #  Clerk::RackMiddleware,
-    #  cache_store: ActiveSupport::Cache::FileStore.new(
-    #    Rails.root + "tmp/clerk_sdk_cache"
-    #  )
-    #)
   end
 
 end
