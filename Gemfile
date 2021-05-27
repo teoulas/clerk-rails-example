@@ -60,4 +60,4 @@ gem "bootstrap", "~> 5.0.1"
 gem "dotenv-rails", groups: [:development, :test]
 gem "react-rails"
 
-gem "clerk-sdk-ruby", path: "/home/theo/Code/clerk-sdk-ruby", require: "clerk"
+gem "clerk-sdk-ruby", "~> 1.0.0", require: "clerk"
